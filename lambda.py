@@ -1,0 +1,7 @@
+s=int(input("enter he number"))
+area1= lambda s:(s*s)
+print(area1(s))
+b=int(input("enter the number"))
+h=int(input("enter the hieght"))
+area2= lambda b,h:((1*b*h)/2)
+print(area2(b,h))
